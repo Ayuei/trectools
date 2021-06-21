@@ -8,7 +8,7 @@ from setuptools.command.develop import develop as _develop
 requirements = [
     "pandas >= 0.15.0",
     "numpy >= 1.0.0",
-    "modin[ray] >= 0.10.0"
+    "modin[ray] >= 0.10.0",
     "scikit-learn >= 0.15",
     "scipy >= 0.10.0",
     "sarge >= 0.1.1",
