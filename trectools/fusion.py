@@ -1,6 +1,6 @@
 
 import sys
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
 from functools import reduce

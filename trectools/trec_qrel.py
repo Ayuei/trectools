@@ -8,7 +8,7 @@ import logging
 import os
 
 # External libraries
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from sklearn import metrics
 from scipy.stats import ttest_ind

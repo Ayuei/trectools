@@ -5,7 +5,7 @@ import logging
 import os
 
 # External libraries
-import pandas as pd
+import modin.pandas as pd
 
 from scipy.stats import ttest_rel
 

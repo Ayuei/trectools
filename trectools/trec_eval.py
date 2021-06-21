@@ -1,6 +1,6 @@
 from trectools import TrecRes, TrecRun, TrecQrel
 from scipy.stats import norm
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 

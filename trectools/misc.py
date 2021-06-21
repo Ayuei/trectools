@@ -1,17 +1,15 @@
 # My library
-from trectools import TrecPool, TrecRun
 
+import re
 # Standard libraries
 import string
-import re
-
-# TODO: use logging properly
-import logging
 
 # External libraries
 import numpy as np
-import pandas as pd
 import scipy as sp
+
+
+# TODO: use logging properly
 
 
 def remove_punctuation(text):
